@@ -82,7 +82,7 @@ export default function Contact() {
               </h3>
               <div className="grid grid-cols-2 gap-4">
                 <a 
-                  href="#" 
+                  href="javascript:void(0)" 
                   className="flex items-center space-x-3 p-4 bg-gray-50 dark:bg-gray-800 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-200"
                 >
                   <div className="w-8 h-8 bg-[#333] rounded-lg flex items-center justify-center">
@@ -91,7 +91,7 @@ export default function Contact() {
                   <span className="font-medium text-gray-900 dark:text-white">GitHub</span>
                 </a>
                 <a 
-                  href="#" 
+                  href="javascript:void(0)" 
                   className="flex items-center space-x-3 p-4 bg-gray-50 dark:bg-gray-800 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-200"
                 >
                   <div className="w-8 h-8 bg-[#E4405F] rounded-lg flex items-center justify-center">

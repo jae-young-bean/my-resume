@@ -20,7 +20,8 @@ const projects = [
     technologies: ['Python', 'Google Colab', 'Excel', 'Data Visualization'],
     category: 'Data Analysis',
     icon: '📊',
-    color: 'from-green-500 to-emerald-500'
+    color: 'from-green-500 to-emerald-500',
+    detailUrl: '/projects/colab-excel',
   },
   {
     id: 3,
@@ -29,7 +30,8 @@ const projects = [
     technologies: ['Linux', 'Python', 'AI Models', 'Image Classification'],
     category: 'System',
     icon: '🐧',
-    color: 'from-orange-500 to-red-500'
+    color: 'from-orange-500 to-red-500',
+    detailUrl: '/projects/linux-ai',
   },
   {
     id: 4,
@@ -38,7 +40,8 @@ const projects = [
     technologies: ['Research', 'PowerPoint', 'Presentation'],
     category: 'Research',
     icon: '📚',
-    color: 'from-purple-500 to-pink-500'
+    color: 'from-purple-500 to-pink-500',
+    detailUrl: '/projects/paper-presentation',
   },
   {
     id: 5,
@@ -47,7 +50,8 @@ const projects = [
     technologies: ['Arduino', 'C++', 'Hardware Control', 'IoT'],
     category: 'Hardware',
     icon: '⚡',
-    color: 'from-yellow-500 to-orange-500'
+    color: 'from-yellow-500 to-orange-500',
+    detailUrl: '/projects/arduino',
   }
 ]
 
@@ -122,26 +126,6 @@ export default function Projects() {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* 프로젝트 통계 */}
-        <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8">
-          <div className="text-center">
-            <div className="text-3xl font-bold gradient-text mb-2">5</div>
-            <div className="text-gray-600 dark:text-gray-300">완료 프로젝트</div>
-          </div>
-          <div className="text-center">
-            <div className="text-3xl font-bold gradient-text mb-2">3+</div>
-            <div className="text-gray-600 dark:text-gray-300">기술 분야</div>
-          </div>
-          <div className="text-center">
-            <div className="text-3xl font-bold gradient-text mb-2">100%</div>
-            <div className="text-gray-600 dark:text-gray-300">실습 기반</div>
-          </div>
-          <div className="text-center">
-            <div className="text-3xl font-bold gradient-text mb-2">24/7</div>
-            <div className="text-gray-600 dark:text-gray-300">학습 의지</div>
-          </div>
         </div>
       </div>
     </section>
